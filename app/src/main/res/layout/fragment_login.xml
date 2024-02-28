@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mybg"
+    tools:context=".FragmentLogin">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="230dp" />
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="40sp"
+        android:layout_marginBottom="120dp"
+        android:text="Log In" />
+
+    <TextView
+        android:id="@+id/tvSignup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:layout_marginTop="150dp"
+        android:text="You don't have an account     Sign Up" />
+
+    <EditText
+        android:id="@+id/etUsername"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Username"
+        android:layout_gravity="center"
+        android:textColorHint="@color/white"
+        android:textColor="@color/black"
+        android:drawableLeft="@drawable/baseline_person_24"
+        android:paddingLeft="20dp"
+        android:drawablePadding="10dp"
+        android:background="@drawable/edittextbg"
+        />
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:textColorHint="@color/white"
+        android:textColor="@color/black"
+        android:drawableLeft="@drawable/baseline_lock_24"
+        android:drawablePadding="10dp"
+        android:paddingLeft="20dp"
+        android:background="@drawable/edittextbg"
+        />
+
+
+    <Button
+        android:id="@+id/bTLogin"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:text="Log In"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        android:layout_marginTop="200dp"
+        />
+
+
+
+</FrameLayout>

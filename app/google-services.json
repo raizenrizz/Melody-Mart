@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "75230637047",
+    "project_id": "music-avenue-13a51",
+    "storage_bucket": "music-avenue-13a51.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:75230637047:android:8e5a15255c729d6468dcf2",
+        "android_client_info": {
+          "package_name": "com.example.musicavenue"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAC46gLCylNb02umocttEsF8NU6vAdIp08"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
